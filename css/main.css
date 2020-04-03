@@ -121,6 +121,15 @@ h1 {
     text-align: center;
 }
 
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
 p {
     line-height: 1.6em;
     
@@ -181,7 +190,6 @@ aside p {
 /* ----- Mobile MAIN STYLES ----- */
 
 main {
-    color: #fefeff;
     
 }
 
@@ -190,6 +198,7 @@ main .content-wrapper {
 }
 
 .showcase {
+    color: #fefeff;
 }
 
 .application {
@@ -244,9 +253,20 @@ figure img {
     padding: 5%;
 }
 
+/* About Me Styles */
+
+.about-me {
+    padding: 5%;
+}
+
 /* ----- Mobile FOOTER STYLES ----- */
 
-
+footer {
+    background-color: #373b44;
+    color: #fefeff;
+    text-align: center;
+    padding: 7px 0;
+}
 
 
 /* ==========================================================================
