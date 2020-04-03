@@ -173,12 +173,13 @@ aside p {
 }
 
 .email-button {
-    color: #fefeff;
     background-color: #f9bf4a;
-    font-family: 'Tajawal';
-    text-align: center;
-    padding: 15px 12px 12px;
     border-radius: 25px;
+    color: #fefeff;
+    font-family: 'Tajawal';
+    padding: 15px 12px 12px;
+    margin-bottom: 1.5em;
+    text-align: center;
     width: 70%;
 }
 
@@ -206,16 +207,20 @@ main .content-wrapper {
     opacity: 50%
 }
 
-figure img {
+.showcase-img img {
     width: 100%;
-    margin-top: 10%;
-    margin-bottom: 5%;
+    margin: 10% 0;
+}
+
+.showcase-img {
+    
 }
 
 .showcase-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 3% 0;
 }
 
 .showcase-description {
@@ -235,22 +240,26 @@ figure img {
 
 .show-item-1 {
     background-color: #2a6daf;
-    padding: 5%;
+    padding: 10% 5%;
 }
 
 .show-item-2 {
     background-color: #f9bf4a;
-    padding: 5%;
+    padding: 10% 5%;
 }
 
 .show-item-3 {
     background-color: #fc7496;
-    padding: 5%;
+    padding: 10% 5%;
+}
+
+.show-item-3 .showcase-img img {
+    margin: 10% 0 7%;
 }
 
 .show-item-4 {
     background-color: #00c6c0;
-    padding: 5%;
+    padding: 10% 5%;
 }
 
 /* About Me Styles */
