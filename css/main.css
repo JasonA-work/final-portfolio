@@ -213,7 +213,8 @@ main .content-wrapper {
 }
 
 .showcase-img {
-    
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .showcase-footer {
@@ -241,6 +242,10 @@ main .content-wrapper {
 .show-item-1 {
     background-color: #2a6daf;
     padding: 10% 5%;
+}
+
+.show-item-1 .showcase-img {
+    margin: 10%;
 }
 
 .show-item-2 {
