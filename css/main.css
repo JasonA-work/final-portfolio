@@ -255,9 +255,17 @@ figure img {
 
 /* About Me Styles */
 
-.about-me {
-    padding: 5%;
+.about-me-wrapper {
+    padding: 10%;
 }
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
 
 /* ----- Mobile FOOTER STYLES ----- */
 
@@ -267,7 +275,6 @@ footer {
     text-align: center;
     padding: 7px 0;
 }
-
 
 /* ==========================================================================
    Helper classes
