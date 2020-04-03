@@ -428,7 +428,19 @@ footer {
     
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1024px) {
+    
+    html {
+        font-size: 1.26vw;
+    }
+    
+    h1 {
+        text-align: left;
+    }
+    
+    aside p {
+        text-align: left;
+    }
     
     aside {
         position: fixed;
@@ -436,9 +448,41 @@ footer {
         height: 100%;
     }
     
+    .sidebar-container {
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 18%;
+    }
+    
     main .content-wrapper {
         margin-left: 35%;
         width: 65%;
+    }
+    
+    .application p {
+        margin-top: 0;
+    }
+    
+    .showcase-img img {
+        width: 60%;
+        margin: 6% auto;
+    }
+    
+    .show-item-1 .showcase-img img {
+        width: 48%;
+        margin: 2% auto 0;
+    }
+    
+    .showcase-footer {
+        margin: 2% 0 0;
+    }
+    
+    p.showcase-description {
+        margin-bottom: 1%;
+    }
+    
+    .about-me-wrapper {
+        display: none;
     }
 
 }
