@@ -431,8 +431,7 @@ footer {
 @media only screen and (pointer: fine) and (min-width: 1024px) {
     
     html {
-        /*font-size: 1.26vw;*/
-        font-size: 21px;
+        font-size: 1.26vw;
     }
     
     h1 {
