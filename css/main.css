@@ -428,9 +428,7 @@ footer {
     
 }
 
-/*@media only screen and (pointer: fine) and (min-width: 1024px) {*/
-
-@media only screen and (orientation: landscape) {
+@media only screen and (pointer: fine) and (min-width: 1024px) {
 
     html {
         font-size: 1.26vw;
