@@ -208,6 +208,7 @@ aside p {
 .showcase-img img {
     width: 100%;
     margin: 10% 0;
+    height: auto;
 }
 
 .showcase-img {
@@ -256,7 +257,7 @@ aside p {
     padding: 10% 5%;
 }
 
-.show-item-3 .showcase-img img {
+.show-item-3 .showcase-img {
     margin: 10% 0 7%;
 }
 
@@ -392,12 +393,11 @@ footer {
     }
     
     .showcase-img img {
-        width: 70%;
         margin-left: auto;
         margin-right: auto;
     }  
     
-    .show-item-3 .showcase-img img {
+    .show-item-3 .showcase-img {
         margin: 10% auto 7%;
     }
     
@@ -465,12 +465,12 @@ footer {
         margin-top: 0;
     }
     
-    .showcase-img img {
+    .showcase-img {
         width: 60%;
         margin: 6% auto;
     }
     
-    .show-item-1 .showcase-img img {
+    .show-item-1 .showcase-img {
         width: 48%;
         margin: 2% auto 0;
     }
