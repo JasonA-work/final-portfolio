@@ -442,14 +442,10 @@ footer {
     .showcase-img img {
         height: auto;
         width: 60%;
-        margin: auto;
+        margin: 0 auto;
         padding: 0;
     }
     
-    .show-item-1 {
-        padding: 0;
-        margin: 0 auto;
-    }
 }
 
 @media only screen and (pointer: fine) and (min-width: 1024px) {
