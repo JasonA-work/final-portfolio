@@ -210,8 +210,9 @@ aside p {
 
 .showcase-img img {
     width: 100%;
-    margin: 10% 0;
     height: auto;
+    margin: 10% 0;
+    box-sizing: border-box;
 }
 
 .showcase-img {
