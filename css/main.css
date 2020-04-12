@@ -103,6 +103,7 @@ textarea {
 html {
     font-size: 16px;
     height: 100%;
+    width: 100%;
 }
 
 body {
@@ -114,6 +115,7 @@ body {
     align-items: flex-start;
     flex-flow: row wrap;
     height: 100%;
+    width: 100%;
 }
 
 .body-container {
@@ -432,6 +434,16 @@ footer {
         padding: 5%;
     }
     
+}
+
+@media only screen and (pointer: coarse) and (orientation: landscape) {
+    
+    .showcase-img img {
+        height: auto;
+        width: 60%;
+        margin: auto;
+        padding: 0;
+    }
 }
 
 @media only screen and /*(pointer: fine) and */(min-width: 1024px) {
