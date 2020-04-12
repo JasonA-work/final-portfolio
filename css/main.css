@@ -245,10 +245,12 @@ aside p {
 .show-item-1 {
     background-color: #2a6daf;
     padding: 10% 5%;
+    box-sizing: border-box;
 }
 
 .show-item-1 .showcase-img {
     margin: 10%;
+    box-sizing: border-box;
 }
 
 .show-item-2 {
