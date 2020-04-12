@@ -445,6 +445,11 @@ footer {
         margin: auto;
         padding: 0;
     }
+    
+    .show-item-1 {
+        padding: 0;
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (pointer: fine) and (min-width: 1024px) {
