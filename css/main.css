@@ -140,8 +140,7 @@ h4 {
 }
 
 p {
-    line-height: 1.6em;
-    
+    line-height: 1.6em;   
 }
 
 /* ----- Mobile ASIDE STYLES ----- */
@@ -178,6 +177,14 @@ aside p {
     max-width: 250px;
 }
 
+.social-icons a {
+    color: #373b44;
+}
+
+.social-icons a:hover {
+    color: black;
+}
+
 .fontawesome-icon {
     font-size: 1.875em;
 }
@@ -192,11 +199,16 @@ aside p {
     text-align: center;
     width: 70%;
     max-width: 250px;
+    text-decoration: none;
 }
 
 .email-button a {
     text-decoration: none;
     color: #fefeff;
+}
+
+.email-button:hover {
+    box-shadow: .5em .45em 1em #bbb; 
 }
 
 /* ----- Mobile MAIN STYLES ----- */
@@ -234,12 +246,17 @@ aside p {
     padding-right: 3%;
 }
 
-.showcase-fontawesome-icon {
+.showcase-fontawesome-icon a {
+    color: #fefeff;
     flex: 1;
     font-size: 40px;
     margin: 0;
     opacity: .5;
     text-align: right;
+}
+
+.showcase-fontawesome-icon a:hover {
+    opacity: .85;
 }
 
 /*Show Item Styles*/
@@ -401,6 +418,7 @@ footer {
     }
     
     .showcase-img img {
+        max-width: 100%;
         margin-left: auto;
         margin-right: auto;
         height: auto;
@@ -442,7 +460,7 @@ footer {
     .showcase-img img {
         height: auto;
         width: 60%;
-        margin: 0 auto;
+        margin: auto;
         padding: 0;
     }
     
@@ -476,7 +494,7 @@ footer {
     .sidebar-container {
         justify-content: space-between;
         align-items: flex-start;
-        padding: 16% 13.5% 12%;
+        padding: 10% 13.5%;
         overflow: hidden;
         height: 100%;
         box-sizing: border-box;
