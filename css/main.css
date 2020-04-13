@@ -419,6 +419,7 @@ footer {
     
     .showcase-img img {
         max-width: 100%;
+        width: 60%;
         margin: auto;
         height: auto;
     }  
