@@ -272,6 +272,13 @@ aside p {
     box-sizing: border-box;
 }
 
+@media only screen and (orientation: landscape) {
+    
+    .show-item-1 .showcase-img {
+        margin: 0;
+    }
+}
+
 .show-item-2 {
     background-color: #f9bf4a;
     padding: 10% 5%;
