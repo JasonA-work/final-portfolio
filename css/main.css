@@ -272,13 +272,6 @@ aside p {
     box-sizing: border-box;
 }
 
-@media only screen and (orientation: landscape) {
-    
-    .show-item-1 .showcase-img {
-        margin: 0;
-    }
-}
-
 .show-item-2 {
     background-color: #f9bf4a;
     padding: 10% 5%;
@@ -462,17 +455,7 @@ footer {
     
 }
 
-@media only screen and (pointer: coarse) and (orientation: landscape) {
-    
-    .showcase-img img {
-        height: auto;
-        width: 60%;
-        margin: auto;
-    }
-    
-}
-
-@media only screen and (pointer: fine) and (min-width: 1024px) {
+@media only screen and (orientation: landscape) and (min-width: 1024px) {
 
     html {
         font-size: calc(16px + 0.165vw);
@@ -528,12 +511,12 @@ footer {
     }
     
     .showcase-img {
-        width: 60%;
+        width: 100%;
         margin: 6% auto;
     }
     
     .show-item-1 .showcase-img {
-        width: 48%;
+        width: 95%;
         margin: 2% auto 0;
     }
     
