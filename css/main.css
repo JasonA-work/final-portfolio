@@ -394,8 +394,6 @@ aside p {
 .showcase-img {
   margin-left: 0;
   margin-right: 0;
-  padding-bottom: 1%;
-  padding-top: 1%;
 }
 
 .showcase-footer {
@@ -728,6 +726,7 @@ footer {
   .showcase-img {
     width: 100%;
     margin: 6% auto;
+    min-height: 33.27vw;
   }
 
   .show-item-1 .showcase-img {
