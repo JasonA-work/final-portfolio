@@ -98,6 +98,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+:root {
+  --yellow: #f9bf4a;
+}
+
 /* ----- GLOBAL STYLES ----- */
 
 @-webkit-keyframes slideFromTop {
@@ -332,11 +336,11 @@ aside p {
 }
 
 .email-button {
-  background-color: #f9bf4a;
+  background-color: var(--yellow);
   border-radius: 25px;
-  color: #fefeff;
+  color: #373b44;
   font-family: 'Tajawal';
-  padding: 15px 12px 12px;
+  padding: 17px 12px 12px;
   margin: 1em 0 1.5em;
   text-align: center;
   width: 70%;
@@ -349,6 +353,7 @@ aside p {
 .email-button a {
   text-decoration: none;
   color: #fefeff;
+  margin: 0;
 }
 
 .email-button:hover {
@@ -412,6 +417,7 @@ aside p {
   opacity: 1;
 }
 
+.show-item-2 .showcase-description,
 .show-item-1 .showcase-description {
   -webkit-animation: opacityNoneToFull 1.5s ease-in-out;
   animation: opacityNoneToFull 1.5s ease-in-out;
@@ -450,6 +456,7 @@ aside p {
   animation: slideFromLeft 1.9s cubic-bezier(.62, .29, .16, .91);
 }
 
+.show-item-2 .application,
 .show-item-1 .application {
   -webkit-animation: opacityNoneToHalf 1s;
   animation: opacityNoneToHalf 3.5s ease-in-out;
@@ -461,8 +468,13 @@ aside p {
 }
 
 .show-item-2 {
-  background-color: #f9bf4a;
+  background-color: var(--yellow);
   padding: 10% 5%;
+}
+
+.show-item-2 .showcase-img {
+  -webkit-animation: slideFromLeft 1.9s cubic-bezier(.62, .29, .16, .91);
+  animation: slideFromLeft 2.5s cubic-bezier(.62, .29, .16, .91);
 }
 
 .show-item-3 {
@@ -634,17 +646,14 @@ footer {
   }
 
   .show-item-2 {
-    background-color: #f9bf4a;
     padding: 5%;
   }
 
   .show-item-3 {
-    background-color: #fc7496;
     padding: 5%;
   }
 
   .show-item-4 {
-    background-color: #00c6c0;
     padding: 5%;
   }
 
